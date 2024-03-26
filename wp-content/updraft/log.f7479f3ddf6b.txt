@@ -1,0 +1,173 @@
+0000.016 (0) Opened log file at time: Mon, 25 Mar 2024 21:58:34 +0000 on http://localhost:10008
+0000.024 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.23 (fpm-fcgi, Darwin Air-de-Florian.lan 21.6.0 Darwin Kernel Version 21.6.0: Mon Feb 19 20:24:34 PST 2024; root:xnu-8020.240.18.707.4~1/RELEASE_X86_64 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 12M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.033 (0) Free space on disk containing Updraft's temporary directory: 41150.3 MB
+0000.047 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: manual)
+0000.056 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.067 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1711398161, seconds_ago=5753)
+0000.096 (0) Set semaphore last lock (f) time to 2024-03-25 21:58:34
+0000.104 (0) Semaphore lock (f) complete
+0000.136 (0) Backup run: resumption=0, nonce=f7479f3ddf6b, file_nonce=f7479f3ddf6b begun at=1711403914 (0s ago), job type=backup
+0000.148 (0) Scheduling a resumption (1) after 300 seconds (1711404214) in case this run gets aborted
+0000.186 (0) Checking if we have a zip executable available
+0000.196 (0) Testing: /usr/bin/zip
+0000.310 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.314 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.322 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.337 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.348 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.395 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.398 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.419 (0) Working binary zip found: /usr/bin/zip
+0000.433 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.442 (0) Creation of backups of directories: beginning
+0000.491 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.731 (0) Total entities for the zip file: 515 directories, 2460 files (0 skipped as non-modified), 61.9 MB
+0000.756 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.764 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.772 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.785 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.799 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.820 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.836 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.849 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.871 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.882 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.886 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22 MB, 2460 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.952 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: size is now: 5.10 MB
+0002.974 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1100 files added (on-disk size: 5219.1 KB)
+0002.983 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1200 files added (on-disk size: 5219.1 KB)
+0002.995 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1300 files added (on-disk size: 5219.1 KB)
+0003.009 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1400 files added (on-disk size: 5219.1 KB)
+0003.017 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1500 files added (on-disk size: 5219.1 KB)
+0003.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 2460 files batched, 589 (1590) added so far); re-opening (prior size: 5219.1 KB)
+0007.872 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: size is now: 12.90 MB
+0007.900 (0) A useful amount of data was added after this amount of zip processing: 5 s (normalised: 5 s, rate: 5128.1 KB/s)
+0007.910 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.0264999866486, normalised_time=4.9920981869707, max_time=7.9007630348206, data points known=1, old_max_bytes=26214400, new_max_bytes=31507072)
+0007.928 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1600 files added (on-disk size: 13207.2 KB)
+0007.944 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1700 files added (on-disk size: 13207.2 KB)
+0007.957 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1800 files added (on-disk size: 13207.2 KB)
+0007.969 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 1900 files added (on-disk size: 13207.2 KB)
+0007.977 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 2000 files added (on-disk size: 13207.2 KB)
+0008.031 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 2100 files added (on-disk size: 13207.2 KB)
+0008.046 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 2200 files added (on-disk size: 13207.2 KB)
+0008.067 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 2300 files added (on-disk size: 13207.2 KB)
+0008.081 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: 2400 files added (on-disk size: 13207.2 KB)
+0012.291 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.tmp: size is now: 17.00 MB
+0012.343 (0) Creating zip file manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.list-temp.tmp)
+0012.373 (0) Successfully created zip file manifest (size: 194547)
+0012.640 (0) Created plugins zip (0) - 17445.2 KB in 12.1 s (1438.5 KB/s) (sha1: 3cb2220a818b46d5c47e6a0744cd96acecbe797e, sha256: d42631260e842b0ee2308cde7a8d54870bf73a272e0bd7492b75a6644bb0f3d8)
+0012.675 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0012.679 (0) Beginning dispatch of backup to remote (email)
+0012.685 (0) Email: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip: email to: dev-e...
+0018.553 (0) Recording as successfully uploaded: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip
+0018.587 (0) Deleting local file: backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip: OK
+0018.631 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.713 (0) Total entities for the zip file: 141 directories, 1026 files (0 skipped as non-modified), 23.9 MB
+0018.721 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.733 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.748 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.756 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.764 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.777 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0018.789 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0018.798 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0018.811 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0018.824 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0018.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.8 MB, 1026 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0023.693 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.tmp: size is now: 8.90 MB
+0023.915 (0) Creating zip file manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.list-temp.tmp)
+0023.931 (0) Successfully created zip file manifest (size: 72695)
+0024.098 (0) Created themes zip (0) - 9161.1 KB in 5.4 s (1682.7 KB/s) (sha1: fd88f33841c0ce0423f36836cbaec7b994adcc26, sha256: feac9883b2d42269baa06995fd4ed430854c12495e52946b56bea6b437dcb1ff)
+0024.123 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0024.130 (0) Beginning dispatch of backup to remote (email)
+0024.138 (0) Email: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip: email to: dev-e...
+0025.486 (0) Recording as successfully uploaded: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip
+0025.496 (0) Deleting local file: backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip: OK
+0025.521 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0025.528 (0) Looking for candidates to backup in: /Users/Florian/Local Sites/planty/app/public/wp-content/uploads
+0025.541 (0) finding files: 2024: adding to list (1)
+0025.545 (0) finding files: .DS_Store: adding to list (2)
+0025.550 (0) finding files: wpcf7_uploads: adding to list (3)
+0025.554 (0) finding files: wpforms: adding to list (4)
+0025.558 (0) finding files: elementor: adding to list (5)
+0025.563 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0025.616 (0) Total entities for the zip file: 9 directories, 139 files (0 skipped as non-modified), 22.7 MB
+0025.631 (0) Zip: backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.580 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip.tmp: size is now: 18.50 MB
+0026.596 (0) Creating zip file manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip.list-temp.tmp)
+0026.603 (0) Successfully created zip file manifest (size: 8244)
+0026.850 (0) Created uploads zip (0) - 18943.1 KB in 1.3 s (14860.7 KB/s) (sha1: b1ee99938e4fb0b4a9c6eaad39d8424deec3a2d5, sha256: 3133558c8357bcad521920696392cc81bcfbd63e8d10c664d7a5b3d6921df2bc)
+0026.875 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0026.882 (0) Beginning dispatch of backup to remote (email)
+0026.891 (0) Email: backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip: email to: dev-e...
+0031.837 (0) Recording as successfully uploaded: backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip
+0031.855 (0) Deleting local file: backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip: OK
+0031.899 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0031.903 (0) Does not exist: /Users/Florian/Local Sites/planty/app/public/wp-content/mu-plugins
+0031.918 (0) There are no mu-plugins to backup. Will not raise an error.
+0031.926 (0) mu-plugins: create_zip returned an error
+0031.938 (0) Beginning backup of other directories found in the content directory (index: 0)
+0031.946 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0031.948 (0) Looking for candidates to backup in: /Users/Florian/Local Sites/planty/app/public/wp-content
+0031.953 (0) finding files: upgrade: skipping: excluded by options
+0031.957 (0) finding files: .DS_Store: adding to list (1)
+0031.961 (0) finding files: index.php: adding to list (2)
+0031.973 (0) finding files: upgrade-temp-backup: adding to list (3)
+0031.980 (0) finding files: plugins: skipping: this is the plugins directory
+0031.985 (0) finding files: uploads: skipping: this is the uploads directory
+0031.989 (0) finding files: updraft: skipping: this is the updraft directory
+0031.993 (0) finding files: languages: adding to list (4)
+0031.997 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0032.002 (0) finding files: themes: skipping: this is the themes directory
+0032.024 (0) Total entities for the zip file: 5 directories, 77 files (0 skipped as non-modified), 3.4 MB
+0032.507 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip.tmp: size is now: 0.90 MB
+0032.515 (0) Creating zip file manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip.list-temp.tmp)
+0032.519 (0) Successfully created zip file manifest (size: 4628)
+0032.548 (0) Created others zip (0) - 955.3 KB in 0.5 s (1772.7 KB/s) (sha1: 9a8e4dd7f1aec0cf02e7094e5f0643cbab42c85f, sha256: b51ecb1fd149103c99b2b4630e4f465af92b6b1161769a8b5e4215114efd03c7)
+0032.564 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0032.566 (0) Beginning dispatch of backup to remote (email)
+0032.568 (0) Email: backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip: email to: dev-e...
+0032.835 (0) Recording as successfully uploaded: backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip
+0032.852 (0) Deleting local file: backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip: OK
+0032.896 (0) Saving backup status to database (elements: 8)
+0032.910 (0) No database backup (wp) - not part of this run
+0032.930 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip: plugins: This file has already been successfully uploaded
+0032.939 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip: themes: This file has already been successfully uploaded
+0032.947 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip: uploads: This file has already been successfully uploaded
+0032.949 (0) backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip: others: This file has already been successfully uploaded
+0032.955 (0) Saving backup history. Total backup size: 45.4 MB
+0032.967 (0) Resume backup (f7479f3ddf6b, 0): finish run
+0032.980 (0) There were no more files that needed uploading
+0032.989 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0032.998 (0) Number of backup sets in history: 3; groups (db): 1
+0033.008 (0) Examining (for databases) backup set with group_id=0, nonce=f7479f3ddf6b, datestamp=1711403914 (Mar 25 2024 21:58:34)
+0033.015 (0) Examining (for databases) backup set with group_id=0, nonce=2a80a3057a02, datestamp=1711398161 (Mar 25 2024 20:22:41)
+0033.015 (0) Examining (for databases) backup set with group_id=0, nonce=ac4268b705e0, datestamp=1711389822 (Mar 25 2024 18:03:42)
+0033.015 (0) Number of backup sets in history: 3; groups (files): 1
+0033.017 (0) Examining (for files) backup set with nonce=f7479f3ddf6b, datestamp=1711403914 (Mar 25 2024 21:58:34)
+0033.017 (0) This backup set is the backup set just made, so will not be deleted.
+0033.022 (0) This backup set is the backup set just made, so will not be deleted.
+0033.022 (0) This backup set is the backup set just made, so will not be deleted.
+0033.022 (0) This backup set is the backup set just made, so will not be deleted.
+0033.022 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.027 (0) Examining (for files) backup set with nonce=2a80a3057a02, datestamp=1711398161 (Mar 25 2024 20:22:41)
+0033.027 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.027 (0) Examining (for files) backup set with nonce=ac4268b705e0, datestamp=1711389822 (Mar 25 2024 18:03:42)
+0033.027 (0) plugins: over retain limit (2); will delete this file entity
+0033.027 (0) themes: over retain limit (2); will delete this file entity
+0033.027 (0) uploads: over retain limit (2); will delete this file entity
+0033.027 (0) others: over retain limit (2); will delete this file entity
+0033.038 (0) This backup set is now empty; will remove from history
+0033.040 (0) Deleting log file (log.ac4268b705e0.txt)
+0033.050 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0033.070 (0) Decremented the semaphore (f) by 1
+0033.083 (0) Semaphore (f) unlocked
+0033.084 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0033.098 (0) Deleting zip manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-plugins.zip.list.tmp)
+0033.102 (0) Deleting zip manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-themes.zip.list.tmp)
+0033.107 (0) Deleting zip manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-uploads.zip.list.tmp)
+0033.110 (0) Deleting zip manifest (backup_2024-03-25-2258_Planty_f7479f3ddf6b-others.zip.list.tmp)
+0033.115 (0) Fetching RSS news feed
+0033.218 (0) Fetched RSS news feed; result is a: SimplePie
+0033.273 (0) Sending email ('Files only (database was not part of this particular schedule) (Full backup)') report (attachments: 0, size: 0 KB) to: dev-e...
+0033.336 (0) The backup succeeded and is now complete
