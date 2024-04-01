@@ -11,15 +11,25 @@ Updated: 2024-02-28 18:47:48
 
 */
 
-/*__________ PAGE PRINCIPALE __________*/
-.plantyhome{
-    border-radius: 0 0 50% 50% / 0 0 10% 10%!important;
-    border-bottom: 10px solid #E3D9D0;
+/*_____GENERAL_____*/
+#menu-item-140 a {
+    background-color: #DC9F96;
+    color: #FFFFFF !important;
 }
 
-#menu-item-140 {
-    background-color: #DC9F96;
+#menu-item-140:hover {
+background-color: #C02E44;
 }
+
+.cf7-bouton:hover {
+    background-color: #C02E44 !important;
+} 
+
+/*__________ PAGE PRINCIPALE __________*/
+.plantyhome{
+    border-radius: 0 0 50% 50% / 0 0 10% 10% !important; 
+    border-bottom: 10px solid #E3D9D0;  
+} 
 
 /* __________ PAGE NOUS RENCONTRER __________*/
 #feuillehaut{
@@ -39,35 +49,30 @@ Updated: 2024-02-28 18:47:48
 } 
 
 #feuillebas {
-    width: 12vw; 
+    width: 12vw;  
     position: absolute;
-    bottom: 9%;
-    left: 30.8%; 
+    top: 430px;
+    left: 31%;
     z-index: -1;
 }
 
-/* __________ PAGE COMMANDER __________ A MODIFIER */
-#diviseur {
-    left: 3%;
-}
-
-/*______ FORMULAIRES ______*/
-/* "nous contacter" */
+/*____FORMULAIRES ===>>> "nous contacter"___*/
 .wpcf7-spinner {
     display: none;
 }
 
 .wpcf7-form {
     color: #000000;
+    width: auto;
     font-family: syne;
     font-size: 20px;
     font-weight: 400;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} 
 
-.cf7-texte {  
+.cf7-texte { 
     background-color: #ffff !important;
     box-shadow: 0px 4px 14px 0px #0000000A;
     border-radius: 7px !important;
@@ -91,14 +96,44 @@ Updated: 2024-02-28 18:47:48
     height: 55px;
 }
 
-/* "commander" */
-.caintainer-formulaire {
-    width: 860px;
+/* __________ PAGE COMMANDER __________*/
+
+
+/*____FORMULAIRES ===>>> "commander"___*/
+.main-qty {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}  
+
+ #qty-fraise, #qty-pamplemousse, #qty-framboise, #qty-citron {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 0%;
+    border-radius: 0%;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    width: 39px;
+    height: 56px;
+} 
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.ctnr-information-commande {
+    width: 900px;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; 
     gap: 10%;
-    margin-bottom: 3%;
+    margin: 6% 0 3% 0;
     color: #FFFF;
     font-family: syne;
     font-size: 20px;
@@ -115,12 +150,18 @@ Updated: 2024-02-28 18:47:48
     margin: 0% 0% 10% 0%;
 }
 
+.ctnr-diviseur {
+    height: 40px !important;
+    position: absolute !important;
+    left: 48.5%;
+    top: 50%;
+}
 
 /*_____  MEDIA QUERIES  _____*/
 @media screen and (max-width: 1200px) {
 #feuillebas { 
     display: none;
-}
+    }
 } 
 
 @media screen and (max-width: 1000px) {
@@ -129,24 +170,28 @@ Updated: 2024-02-28 18:47:48
     top: 0%;
     left: auto;
     right: auto;
-}
+    }
 }
 
 @media screen and (max-width: 880px) {
-.caintainer-formulaire {
+.ctnr-information-commande {
     display:flex;
-    flex-direction: column;
+    flex-direction: column ;
     align-items: center;
-}
-
-#diviseur{
-    display: none;
-}
-}
+    }
+.ctnr-diviseur {
+    display: none !important;
+    }
+}  
 
 @media screen and (max-width: 767px) {
 #feuillemilieu, #feuillebas {
     display: none;
-}
+    }
 }
 
+@media screen and (max-width: 430px) {
+    .cf7-texte, .cf7-message  {
+        width: 100% !important;
+    }
+}
