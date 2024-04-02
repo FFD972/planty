@@ -23,15 +23,20 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
-
 function add_admin_link_to_menu( $items, $args ) {
+
     // Vérifie si l'utilisateur est connecté
-    if ( is_user_logged_in() ) {
-        // Ajoute le lien "Admin" au menu
+    if ( is_user_logged_in() && $args->menu->slug == 'principal' ) {
+        // Divise les éléments du menu en deux parties
+        $menu_items = explode( '</li>', $items );
+        $half = ceil( (count( $menu_items )-1) / 2 );
+
+        // Ajoute le lien "Admin" au milieu du menu
         $admin_link = '<li><a href="' . admin_url() . '">Admin</a></li>';
-        
-        // Ajoute le lien à la fin des éléments du menu
-        $items .= $admin_link;
+        array_splice( $menu_items, $half, 0, $admin_link );
+
+        // Reconstitue les éléments du menu
+        $items = implode( '</li>', $menu_items );
     }
 
     return $items;
